@@ -1,0 +1,10 @@
+<?php
+	class user_m extends CI_Model{
+		function gets(){
+			return $this->db->get('users')->result();
+		}
+		function get($id){}
+		function add(){}
+		function dell($id){}
+		function edit($id){}
+	}
